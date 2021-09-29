@@ -1,6 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
+import YessicaReg from './assets/fonts/Yessica-Regular.otf';
+import AltaL from './assets/fonts/Alta-light.otf';
+
 
 export const GlobalStyle = createGlobalStyle`
+@font-face {
+  font-family: 'yessica-R';
+  src: url(${YessicaReg});
+}
+@font-face {
+  font-family: 'alta-L';
+  src: url(${AltaL});
+}
+
     *,
     ::after,
     ::before {

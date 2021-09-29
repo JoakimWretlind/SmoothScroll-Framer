@@ -18,7 +18,7 @@ export const Section = styled.section`
 
 export const Page1Img = styled.img`
     position: absolute;
-    top: 10rem;
+    top: 24rem;
     right: 10%;
     width: 60vw;
     min-width: 28rem;
@@ -27,7 +27,7 @@ export const Page1Img = styled.img`
 
 export const Page1Text = styled.div`
   position: absolute;
-  top: 35vh;
+  top: 49vh;
   left: 30%;
   width: 30vw;
   z-index: 2;
@@ -44,13 +44,13 @@ export const PTag = styled.p`
 
 export const Page2Img = styled.img`
     position: absolute;
-    top: 40vh;
+    top: 54vh;
     left: 10%;
     height: 60vh;
 `;
 export const Page2Text = styled.div`
   position: absolute;
-  top: 96vh;
+  top: 110vh;
   left: 12%;
   width: 30vw;
   z-index: 2;
@@ -61,20 +61,21 @@ export const Page2Text = styled.div`
 
 export const Page3Img = styled.img`
     position: absolute;
-    top: -24vh;
+    top: -10vh;
     left: 46%;
     height: 80vh;
 `;
 
 export const Page4Img1 = styled.img`
     position: absolute;
-    top: -10vh;
+    top: -6 vh;
     right: 10%;
     height: 60vh;
 `;
 
 export const Page4Img2 = styled.img`
     position: absolute;
+    top: 10vh;
     bottom: 14vh;
     left: 24%;
     height: 80vh;
@@ -93,4 +94,18 @@ export const ToTopButton = styled.button`
         cursor: pointer;
         border: .1rem solid #9ECD01;
     }
+`;
+
+export const TitleHolder = styled.div`
+    position: absolute;
+    top: 10vh;
+    left: 10%;
+    display: flex;
+`;
+
+export const Title = styled.h1`   
+    font-size: 22rem;
+    z-index: 2;
+    letter-spacing: 1rem;
+    font-family: 'alta-L';
 `;
