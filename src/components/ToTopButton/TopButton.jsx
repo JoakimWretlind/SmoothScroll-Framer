@@ -1,4 +1,4 @@
-import { ToTopButton } from '../pages/styling';
+import { ToTopButton } from '../../pages/styling';
 
 export const TopButton = () => {
     const scrollTop = () => window.scrollTo({ top: 0 })
