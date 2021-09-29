@@ -79,3 +79,18 @@ export const Page4Img2 = styled.img`
     left: 24%;
     height: 80vh;
 `;
+
+export const ToTopButton = styled.button`
+    margin-bottom: 3rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem 1.8rem;
+    outline: none;
+    background: transparent;
+    border: .1rem solid rgba(0,0,0,.3);
+    transition: .3s ease-out;
+    &:hover{
+        cursor: pointer;
+        border: .1rem solid #9ECD01;
+    }
+`;
